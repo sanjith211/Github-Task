@@ -1,0 +1,84 @@
+.container {
+    height: 100vh;
+    background-color: #cad2c5;
+}
+
+.header-container {
+    height: 10%;
+    background-color: #2F3D46;
+    display: flex;
+}
+
+.logo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+}
+
+.body-container {
+    height: 90%;
+    display: flex;
+}
+
+.body-left {
+    width: 30%;
+    padding: 2em;
+}
+
+.bar {
+    height: 100%;
+    width: 100%;
+    background-color: #353535;
+    border-radius: 20px;
+}
+
+.body-right {
+    width: 70%;
+    display: flex;
+    padding: 2em;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.searchbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myInput {
+    width: 70%;
+    height: 35px;
+    background-color: #353535;
+    border-radius: 20px;
+    padding: 0 1em;
+}
+
+.square {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box {
+    width: 25%;
+    height: 150px;
+    background-color: #353535;
+    border-radius: 20px;
+}
+
+.description{
+    height: 150px;
+    background-color: #353535;
+    border-radius: 20px;
+}
